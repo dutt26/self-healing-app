@@ -5,8 +5,8 @@ metadata:
   namespace: production
 spec:
   hard:
-    requests.cpu: "8"
-    requests.memory: 16Gi
-    limits.cpu: "16"
-    limits.memory: 32Gi
-    pods: "50"
+    pods: "20"
+    requests.cpu: "2"
+    requests.memory: 2Gi
+    limits.cpu: "2"
+    limits.memory: 2Gi
